@@ -1,0 +1,7 @@
+casts from 180 to 188 show very weird spikes and a gradual increase
+115 to 118 too.
+
+
+Use time as x-axis?
+
+Normalize, use a regression plot?
