@@ -5,33 +5,33 @@
         <title>Sulatto</title>
         
         <link rel="stylesheet" href="our_stylesheet.css" type="text/css"/>
+        
     </head>
     <body>
-        <h1>Team 2 Project Presentation</h1>
-        <h2>Abstract</h2>
-        <p>
-            In the abstract, we'll give a brief overview of the project, it's purpose and it's dataset.
-        </p>
-        <div>
-            <img src="CCM.png" 
-            width="250"
-            height="200">
+        <div class="sidebar">
+          <h3 data-target="section1" class="active">Abstract</h3>
+          <h3 data-target="section2">Analysis</h3>
+          <h3 data-target="section3">Insights</h3>
+          <h3 data-target="section4">CV:s</h3>
         </div>
-        
-        <h3 id="analysisHeader">Analysis</h3>
-        <p>
-            Here we are going to show analysis of the data. Showcasing images and text so that even a newbie will understand. 
-        </p>
-        <h3 id="insightsHeader">Insights</h3>
-        <p>
-            Lastly will be the insights and conclusions we came to, hoping to provide an answer to the assignment.
-        </p>
-        <h4>
-            CV:s
-        </h4>
-        <p> 
-            A little profile picture of each of us, which acts as a link to our CV:s
-        </p>
+        <div class="content">
+          <div id="section1" class="content-section active">
+            <h1>Abstract</h1>
+            <p>In the abstract, we'll give a brief overview of the project, it's purpose and it's dataset.</p>
+          </div>
+          <div id="section2" class="content-section">
+            <h1>Analysis</h1>
+            <p>Here we are going to show analysis of the data. Showcasing images and text so that even a newbie will understand.</p>
+          </div>
+          <div id="section3" class="content-section">
+            <h1>Insights</h1>
+            <p>Lastly will be the insights and conclusions we came to, hoping to provide an answer to the assignment.</p>
+          </div>
+          <div id="section4" class="content-section">
+            <h1>CV:s</h1>
+            <p>A little profile picture of each of us, which acts as a link to our CV:s</p>
+          </div>
+        </div>
+        <script src="our_script.js" type="text/javascript"></script>
     </body>
-
 </html>

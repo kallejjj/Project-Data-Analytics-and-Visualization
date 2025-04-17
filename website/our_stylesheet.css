@@ -1,0 +1,33 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    display: flex;
+    height: 100vh;
+  }
+  .sidebar {
+    width: 200px;
+    background-color: rgba(204, 48, 9, 0.897);
+    color: white;
+    padding: 20px;
+    box-sizing: border-box;
+  }
+  .sidebar h3 {
+    cursor: pointer;
+    margin: 10px 0;
+    padding: 10px;
+    border-radius: 5px;
+  }
+  .sidebar h3:hover, .sidebar h3.active {
+    background-color: #34495e;
+  }
+  .content {
+    flex: 1;
+    padding: 20px;
+    box-sizing: border-box;
+  }
+  .content-section {
+    display: none;
+  }
+  .content-section.active {
+    display: block;
+  }
