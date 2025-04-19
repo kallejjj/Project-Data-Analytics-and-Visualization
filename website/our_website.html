@@ -2,34 +2,69 @@
 <html>
     
     <head>
-        <title>Sulatto</title>
+        <title>Liquid Data</title>
         
         <link rel="stylesheet" href="our_stylesheet.css" type="text/css"/>
         
     </head>
     <body>
         <div class="sidebar">
-          <h3 data-target="section1" class="active">Abstract</h3>
-          <h3 data-target="section2">Analysis</h3>
-          <h3 data-target="section3">Insights</h3>
-          <h3 data-target="section4">CV:s</h3>
+          <div>
+            <a href="our_website.html"><img data-target="section1" src="images/liquid_data.png" alt="logo" id="logo"></a>
+          </div>
+          <h3 data-target="section2">Abstract</h3>
+          <h3 data-target="section3">Analysis</h3>
+          <h3 data-target="section4">Insights</h3>
+          <h3 data-target="section5">CV:s</h3>
         </div>
         <div class="content">
           <div id="section1" class="content-section active">
-            <h1>Abstract</h1>
-            <p>In the abstract, we'll give a brief overview of the project, it's purpose and it's dataset.</p>
+            <h1>Welcome</h1>
+            <p>Welcome to the landing page of Team Liquid Data. On this page, we offer you the results from our project assignment: <br>Visualisation of Steel Mill Data</p>
           </div>
           <div id="section2" class="content-section">
+            <h1>Abstract</h1>
+            <p>There is one long-standing problem with the casting of steel. Continuous Casting Machines, or CCMs, are the technology we use to make slabs and sheets of steel.
+              The CCM has consumable parts that will have to be replaced occasionally.
+              One such part is called the Sub-merged Entry Nozzle or SEN.
+              It is responsible for passing the liquid metal from the tundish, to the rest of the machine.
+              The SEN will however eventually clog up due to oxidation. The clogging will halt production and lead to profit losses.
+              <br><br>
+              With the data provided by Outokumpu, we were tasked with finding out whether there are signs of clogging, before it happens. If signs exist, prediction will become possible, and production could prepare for maintenance.
+              The data consisted of 149 casts, which we divided among our three-man team.
+              With data handling tools, such as Pandas and Seaborn, we looked for casts of steel, where problems occurred and compared them to trouble-free casts. We also read relevant research papers to confirm what the current consensus around the issue is. We were also tasked to present our findings on a webpage. There we were to showcase the visualized data of our findings.
+              <br><br> 
+              The key findings:
+              The SEN- and Stopper types influence clogging.
+              When the SEN is nearly clogged, the Stopper movement becomes rapid.
+              <br><br>
+              We do not have data on what materials the two different SEN and Stopper types are made of, so drawing profound conclusions proved difficult.
+              We also know that the operator of the machine can influence the Stopper movements manually. Rapid movement therefore could be the operator attempting to ram the Stopper to the oxidized SEN to forcefully increase the flow. </p>
+          </div>
+          <div id="section3" class="content-section">
             <h1>Analysis</h1>
             <p>Here we are going to show analysis of the data. Showcasing images and text so that even a newbie will understand.</p>
           </div>
-          <div id="section3" class="content-section">
+          <div id="section4" class="content-section">
             <h1>Insights</h1>
             <p>Lastly will be the insights and conclusions we came to, hoping to provide an answer to the assignment.</p>
           </div>
-          <div id="section4" class="content-section">
+          <div id="section5" class="content-section">
             <h1>CV:s</h1>
-            <p>A little profile picture of each of us, which acts as a link to our CV:s</p>
+            <p>
+              Meet the members Team Liquid Data!
+              <br><br>
+              Click on the profile picture to view the CV. 
+            </p>
+            <div class="profileContainer">
+              <div class="profilePic">
+                <a href="cvs/nvuokilacv.pdf"><img src="images/cvpicniko.png" alt="Niko"></a>
+                <h3 class="profileName">Niko Vuokila</h3>
+              </div>
+              <div class="profilePic">
+                <a href="cvs/kalle_jyvala_cv.pdf"><img src="images/profile_pic_kalle.jpg" alt="Kalle"></a>
+                <h3 class="profileName">Kalle Jyvälä</h3>
+              </div>
           </div>
         </div>
         <script src="our_script.js" type="text/javascript"></script>
