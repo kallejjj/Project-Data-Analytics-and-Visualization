@@ -9,8 +9,11 @@ body {
     width: 150px;
     height: 150px;
   }
-
-  .profilePic {
+  .profileContainer{
+    display: flex;
+    gap: 20px;
+  }
+  .profilePic img{
     width: 150px;
     height: 150px;
     display: inline-block;
@@ -20,19 +23,10 @@ body {
     filter: brightness(130%);
   }
 
-  #profileName {
-  text-align: justify;  
+  .profileName {
+  text-align: center;  
   }
 
-
-  #profilePicKalle{
-    width: 150px;
-    height: 230px;
-    margin-left: 100px;
-  }
-  #profileKalle {
-    text-align: center;
-  }
 
   .sidebar {
     width: 200px;
