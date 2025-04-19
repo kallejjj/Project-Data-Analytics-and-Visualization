@@ -9,6 +9,31 @@ body {
     width: 150px;
     height: 150px;
   }
+
+  .profilePic {
+    width: 150px;
+    height: 150px;
+    display: inline-block;
+    transition: filter 0.3s eases
+  }
+  .profilePic img:hover {
+    filter: brightness(130%);
+  }
+
+  #profileName {
+  text-align: justify;  
+  }
+
+
+  #profilePicKalle{
+    width: 150px;
+    height: 230px;
+    margin-left: 100px;
+  }
+  #profileKalle {
+    text-align: center;
+  }
+
   .sidebar {
     width: 200px;
     background-image: linear-gradient(to right, maroon , rgb(150, 77, 9));
