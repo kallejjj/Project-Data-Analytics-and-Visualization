@@ -21,3 +21,6 @@ comparing 112 (abnormal) to 121 (normaL
 
 
 102, 106, 108, 109, 112, , 184, 185, 186, 190
+
+
+check describe() between good and bad casts
