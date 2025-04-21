@@ -1,13 +1,11 @@
 <!DOCTYPE html>
 <html>
-    
     <head>
         <title>Liquid Data</title>
-        
         <link rel="stylesheet" href="our_stylesheet.css" type="text/css"/>
-        
     </head>
     <body>
+        <!--The sidebar, the left side of the page-->
         <div class="sidebar">
           <div>
             <a href="our_website.html"><img data-target="section1" src="images/liquid_data.png" alt="logo" id="logo"></a>
@@ -17,11 +15,13 @@
           <h3 data-target="section4">Insights</h3>
           <h3 data-target="section5">CV:s</h3>
         </div>
+        <!--The content of the page, the right side-->
         <div class="content">
           <div id="section1" class="content-section active">
             <h1>Welcome</h1>
             <p>Welcome to the landing page of Team Liquid Data. On this page, we offer you the results from our project assignment: <br>Visualisation of Steel Mill Data</p>
           </div>
+          <!--The abstract-->
           <div id="section2" class="content-section">
             <h1>Abstract</h1>
             <p>There is one long-standing problem with the casting of steel. Continuous Casting Machines, or CCMs, are the technology we use to make slabs and sheets of steel.
@@ -41,14 +41,48 @@
               We do not have data on what materials the two different SEN and Stopper types are made of, so drawing profound conclusions proved difficult.
               We also know that the operator of the machine can influence the Stopper movements manually. Rapid movement therefore could be the operator attempting to ram the Stopper to the oxidized SEN to forcefully increase the flow. </p>
           </div>
+          <!--The analysis-->
           <div id="section3" class="content-section">
             <h1>Analysis</h1>
-            <p>Here we are going to show analysis of the data. Showcasing images and text so that even a newbie will understand.</p>
+            
+            <div class="comparisons">
+              <div class="ComparingLeft">
+                <div>
+                  <img src="images/141/output.png" alt="cast141_1" id="cast141_1">
+                </div>
+                <div class="textBox">
+                  <p>
+                    - The clogging in the cast can be identified by various factors. <br><br>
+                    - In our case, we can focus on stopper’s changing position as it the key indicator that suggests it. <br><br>
+                    - In the following cast, the stopper’s changing position does not fluctuate weirdly, and all the other values are also quite normal.
+                  </p>
+                </div>
+              </div>
+            </div>
+
+          <div class="comparisons">
+            <div class="ComparingRight">
+              <div class="castImages">
+                <img src="images/141/output2.png" alt="cast141_2">
+              </div>
+            </div>
+            <div class="textBox">
+              <p>
+                - The other factor that we check to conclude that the clogging happens is Quality Status. <br><br>
+                - The stopper’s movement in the following cast does not fluctuate drastically.
+              </p>
+            </div>
           </div>
+        </div>
+
+          
+          </div>
+          <!--The insights-->
           <div id="section4" class="content-section">
             <h1>Insights</h1>
             <p>Lastly will be the insights and conclusions we came to, hoping to provide an answer to the assignment.</p>
           </div>
+          <!--CV:s-->
           <div id="section5" class="content-section">
             <h1>CV:s</h1>
             <p>
@@ -56,6 +90,7 @@
               <br><br>
               Click on the profile picture to view the CV. 
             </p>
+            <!--div-element to contain the profile pictures and names. Needed to align them vertically-->
             <div class="profileContainer">
               <div class="profilePic">
                 <a href="cvs/nvuokilacv.pdf"><img src="images/cvpicniko.png" alt="Niko"></a>
@@ -67,6 +102,7 @@
               </div>
           </div>
         </div>
+        <!--Link to javascript. Has to be in body and not head. Otherwise won't work.-->
         <script src="our_script.js" type="text/javascript"></script>
     </body>
 </html>

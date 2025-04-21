@@ -57,3 +57,30 @@ body {
   .content-section.active {
     display: block;
   }
+
+  .textBox {
+    border: 3px solid black;
+    display: inline-block;
+    padding: 10px;
+    margin-right: 10 px;
+    margin-left: 10 px;
+  }
+
+  .castImages {
+    width: 1200px;    
+  }
+
+  .castImages img {
+    width: 100%;
+    height: auto;
+    display: block;
+  }
+
+  #cast141_1 {
+    width: 800px;
+    height: 800px;
+  }
+
+  .comparisons {
+    display: inline-block;
+  }
