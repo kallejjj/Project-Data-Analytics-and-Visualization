@@ -75,11 +75,11 @@ body {
   }*/
 
   .textBox {
-    border: 3px solid grey;
+    border: 3px solid rgb(0, 0, 0);
     display: inline-block;
     padding: 10px;
-    margin-right: 10 px;
-    margin-left: 10 px;
+    margin: 0 10px;
+    align-self: flex-start;
   }
 
 
@@ -90,10 +90,16 @@ body {
   }
 
   #cast141_1 {
-    width: 80%;
-    height: 100%;
+    width: 60%;
+    height: auto;
   }
 
   .comparisons {
     display: inline-block;
+    align-content: center;
+  }
+
+  .center {
+    display: flex;
+    justify-content: center;
   }
