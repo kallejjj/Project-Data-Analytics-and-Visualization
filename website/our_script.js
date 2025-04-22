@@ -1,3 +1,5 @@
+
+/*
 document.addEventListener('DOMContentLoaded', () => {
 const headers = document.querySelectorAll('.sidebar h3');
 const sections = document.querySelectorAll('.content-section');
@@ -13,3 +15,4 @@ headers.forEach(header => {
   });
 });
 });
+*/

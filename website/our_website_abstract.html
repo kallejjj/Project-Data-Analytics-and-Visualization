@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Liquid Data</title>
+        <link rel="stylesheet" href="our_stylesheet.css" type="text/css"/>
+    </head>
+    <body>
+        <!--The sidebar, the left side of the page-->
+      <div class="page">
+        <div class="sidebar">
+            <nav class="links">
+                <a href="our_website.html"><img data-target="section1" src="images/liquid_data.png" alt="logo" id="logo"></a>
+                <a href="our_website_abstract.html"><h3 data-target="section2">Abstract</h3>
+                <a href="our_website_analysis.html"><h3 data-target="section3">Analysis</h3></a> 
+                <a href="our_website_insights.html"><h3 data-target="section4">Insights</h3></a>
+                <a href="our_website_cvs.html"><h3 data-target="section5">CV:s</h3></a>
+            </nav>
+        </div>
+          <!--The abstract-->
+          <div class="content">
+            <h1>Abstract</h1>
+            <p>There is one long-standing problem with the casting of steel. Continuous Casting Machines, or CCMs, are the technology we use to make slabs and sheets of steel.
+              The CCM has consumable parts that will have to be replaced occasionally.
+              One such part is called the Sub-merged Entry Nozzle or SEN.
+              It is responsible for passing the liquid metal from the tundish, to the rest of the machine.
+              The SEN will however eventually clog up due to oxidation. The clogging will halt production and lead to profit losses.
+              <br><br>
+              With the data provided by Outokumpu, we were tasked with finding out whether there are signs of clogging, before it happens. If signs exist, prediction will become possible, and production could prepare for maintenance.
+              The data consisted of 149 casts, which we divided among our three-man team.
+              With data handling tools, such as Pandas and Seaborn, we looked for casts of steel, where problems occurred and compared them to trouble-free casts. We also read relevant research papers to confirm what the current consensus around the issue is. We were also tasked to present our findings on a webpage. There we were to showcase the visualized data of our findings.
+              <br><br> 
+              The key findings:
+              The SEN- and Stopper types influence clogging.
+              When the SEN is nearly clogged, the Stopper movement becomes rapid.
+              <br><br>
+              We do not have data on what materials the two different SEN and Stopper types are made of, so drawing profound conclusions proved difficult.
+              We also know that the operator of the machine can influence the Stopper movements manually. Rapid movement therefore could be the operator attempting to ram the Stopper to the oxidized SEN to forcefully increase the flow. 
+            </p>
+          </div>
+          <!--Link to javascript. Has to be in body and not head. Otherwise won't work.-->
+        
+    </body>
+</html>

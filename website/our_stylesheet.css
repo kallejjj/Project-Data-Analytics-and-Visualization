@@ -9,7 +9,7 @@ body {
 
   .page {
     display: flex;
-    min-height: 100vh;
+    
     background: linear-gradient(to right, maroon, rgb(150, 77, 9));
   }
 
@@ -44,11 +44,15 @@ body {
     box-sizing: border-box;
   }
   .sidebar h3 {
+    color: white;
+    text-decoration: underline;
+    text-decoration-color: white;
     cursor: pointer;
     margin: 10px 0;
     padding: 10px;
     border-radius: 5px;
   }
+  
   .sidebar h3:hover, .sidebar h3.active {
     background-color: #34495e;
   }
@@ -59,12 +63,13 @@ body {
     background-image: linear-gradient(to left, rgb(150, 77, 9), rgba(179, 90, 7, 0.829) );
     color: white;
   }
+  /*
   .content-section {
     display: none;
   }
   .content-section.active {
     display: block;
-  }
+  }*/
 
   .textBox {
     border: 3px solid grey;
