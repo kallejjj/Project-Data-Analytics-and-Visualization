@@ -11,8 +11,6 @@ body {
     display: flex;
     display: flex;
     min-height: 100vh;
-    
-    /*background: linear-gradient(to right, maroon, rgb(150, 77, 9));*/
   }
 
   #logo {
@@ -66,19 +64,11 @@ body {
     color: white;
     min-height: 100vh;
   }
-  /*
-  .content-section {
-    display: none;
-  }
-  .content-section.active {
-    display: block;
-  }*/
 
   .textBox {
-    border: 3px solid rgb(0, 0, 0);
-    display: inline-block;
+    border: 3px solid rgb(255, 255, 255);
     padding: 10px;
-    margin: 0 10px;
+    margin: 15px;
     align-self: flex-start;
   }
 
@@ -94,9 +84,21 @@ body {
     height: auto;
   }
 
+  #cast112_1 {
+    width: 60%;
+    height: auto;
+  }
+
   .comparisons {
     display: inline-block;
     align-content: center;
+    align-self: flex-start;
+    margin: 10px;
+  }
+
+  .comparisons img {
+    margin-right: 30px;
+    margin-left: 30px;
   }
 
   .center {
