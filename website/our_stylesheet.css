@@ -67,7 +67,7 @@ body {
   }
 
   .textBox {
-    border: 3px solid black;
+    border: 3px solid grey;
     display: inline-block;
     padding: 10px;
     margin-right: 10 px;
@@ -82,11 +82,10 @@ body {
   }
 
   #cast141_1 {
-    width: 100%;
+    width: 80%;
     height: 100%;
   }
 
   .comparisons {
     display: inline-block;
   }
-
