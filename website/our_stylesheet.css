@@ -22,8 +22,8 @@ body {
     gap: 20px;
   }
   .profilePic img{
-    width: 150px;
-    height: 150px;
+    width: 270px;
+    height: 270px;
     display: inline-block;
     transition: filter 0.3s eases
   }
@@ -44,17 +44,71 @@ body {
     box-sizing: border-box;
   }
   .sidebar h3 {
-    color: white;
+    color: rgb(0, 0, 0);
     text-decoration: underline;
-    text-decoration-color: white;
+    text-decoration-color: rgb(0, 0, 0);
     cursor: pointer;
     margin: 10px 0;
     padding: 10px;
     border-radius: 5px;
   }
+
+  .fancy-text-box-for-sidebar {
+    background-color: #f5f5dc;  /* Very light beige background */
+    border: none;
+    padding: 20px;
+    border-radius: 16px;
+    box-shadow: 0 12px 24px rgba(0,0,0,0.15);
+    font-family: 'Poppins', sans-serif;
+    font-size: 19px;
+    line-height: 1.75;
+    color: #333;
+    margin: 40px auto;
+    max-width: 85%;
+    text-align: left;
+    transition: all 0.3s ease-in-out;
+    background-image: linear-gradient(to bottom right, #f5f5dc, #f5f5dc);
+    backdrop-filter: blur(10px);
+}
+
+.fancy-text-box-for-header {
+  background-color: #f5f5dc;  /* Very light beige background */
+  border: none;
+  padding: 20px;
+  border-radius: 16px;
+  box-shadow: 0 12px 24px rgba(0,0,0,0.15);
+  font-family: 'Poppins', sans-serif;
+  font-size: 19px;
+  line-height: 1.75;
+  color: #333;
+  margin: 40px auto;
+  max-width: 30%;
+  text-align: left;
+  transition: all 0.3s ease-in-out;
+  background-image: linear-gradient(to bottom right, #f5f5dc, #f5f5dc);
+  backdrop-filter: blur(10px);
+}
+
+.fancy-text-box-for-header2 {
+  background-color: #f5f5dc;  /* Very light beige background */
+  border: none;
+  padding: 20px;
+  border-radius: 16px;
+  box-shadow: 0 12px 24px rgba(0,0,0,0.15);
+  font-family: 'Poppins', sans-serif;
+  font-size: 19px;
+  line-height: 1.75;
+  color: #333;
+  margin: 40px auto;
+  max-width: 50%;
+  text-align: left;
+  transition: all 0.3s ease-in-out;
+  background-image: linear-gradient(to bottom right, #f5f5dc, #f5f5dc);
+  backdrop-filter: blur(10px);
+}
   
   .sidebar h3:hover, .sidebar h3.active {
-    background-color: #34495e;
+    background-color: #969696;
   }
   .content {
     flex: 1;
@@ -72,33 +126,26 @@ body {
     align-self: flex-start;
   }
 
-
-  .castImages img {
-    width: 100%;
-    height: auto;
-    display: block;
-  }
-
   #cast141_1 {
-    width: 60%;
+    width: 80%;
     height: auto;
   }
 
   #cast112_1 {
-    width: 60%;
+    width: 80%;
     height: auto;
   }
 
   .comparisons {
-    display: inline-block;
+    display: flex;
     align-content: center;
     align-self: flex-start;
     margin: 10px;
   }
 
   .comparisons img {
-    margin-right: 30px;
-    margin-left: 30px;
+    margin-right: 23px;
+    margin-left: 23px;
   }
 
   .center {
