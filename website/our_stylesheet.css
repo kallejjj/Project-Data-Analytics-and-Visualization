@@ -126,14 +126,11 @@ body {
     align-self: flex-start;
   }
 
-  #cast141_1 {
+  .casts {
     width: 80%;
     height: auto;
-  }
-
-  #cast112_1 {
-    width: 80%;
-    height: auto;
+    margin-bottom: 30px;
+    border: 3px solid black;
   }
 
   .comparisons {
@@ -146,6 +143,7 @@ body {
   .comparisons img {
     margin-right: 23px;
     margin-left: 23px;
+    border: 3px solid black;
   }
 
   .center {
