@@ -105,3 +105,7 @@ body {
     display: flex;
     justify-content: center;
   }
+
+.block {
+  display: inline-block;
+}
