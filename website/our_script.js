@@ -1,5 +1,9 @@
 
 /*
+
+Depreceated script from the first version of the website.
+
+
 document.addEventListener('DOMContentLoaded', () => {
 const headers = document.querySelectorAll('.sidebar h3');
 const sections = document.querySelectorAll('.content-section');
